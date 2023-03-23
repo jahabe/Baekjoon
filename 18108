@@ -1,0 +1,14 @@
+package baekjoon_18108;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int year = input.nextInt();
+        if(year >= 1000 && year <= 3000){
+            int bangkokYear = year - 543;
+            System.out.println(bangkokYear);
+        }
+    }
+}
