@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        /**
+         * 1 king 
+         * 1 queen 
+         * 2 rooks 
+         * 2 bishops 
+         * 2 knights 
+         * 8 pawns 
+         */
+        int king = 1;
+        int queen = 1;
+        int rooks = 2;
+        int bishops = 2;
+        int knights = 2;
+        int pawns = 8;
+        
+        king = king - input.nextInt();
+        queen = queen - input.nextInt();
+        rooks = rooks - input.nextInt();
+        bishops = bishops - input.nextInt();
+        knights = knights - input.nextInt();
+        pawns = pawns - input.nextInt();
+        
+        System.out.print(king + " ");
+        System.out.print(queen+ " ");
+        System.out.print(rooks+ " ");
+        System.out.print(bishops+ " ");
+        System.out.print(knights+ " ");
+        System.out.print(pawns+ " ");
+    }
+}
